@@ -16,12 +16,12 @@ const navbar = () => {
           <ul style={{ listStyleType: "none" }}>
             <li>
               <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
-                Home
+                About 
               </Link>
             </li>
             <li>
               <Link to="services" spy={true} smooth={true}>
-                Serivces
+                Skils
               </Link>
             </li>
             <li>
@@ -31,10 +31,10 @@ const navbar = () => {
             </li>
             <li>
               <Link to="portfolio" spy={true} smooth={true}>
-                Protfolio
+                Projects
               </Link>
             </li>
-            
+
           </ul>
         </div>
         <Link to="contact" spy={true} smooth={true}>
