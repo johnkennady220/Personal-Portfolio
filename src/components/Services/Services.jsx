@@ -3,7 +3,6 @@ import "./Services.css";
 import Card from "../Card/Card";
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
-import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import Resume from './resume.pdf';
@@ -27,9 +26,12 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My </span>
         <span>Resume</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br />
-          ispum is simpley dummy text of printing
+        I Started off my self-learning journey with online tutorials
+        <br />Google, YouTube,codechef etc and take a step further
+              and <br />Enrolled in the GUVI IIT MADRAS Fullstack developer <br />Nano degree
+              Program which involved extensive programming and real world
+              projects. <br />Later, I learned MERN Stack From Guvi and built an
+              Website using React JS, Node, Express Js, MongoDB.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -62,21 +64,6 @@ const Services = () => {
             detail={"Html, Css, JavaScript, React, Nodejs, Express"}
           />
         </motion.div>
-        {/* 3rd */}
-        {/* <motion.div
-          initial={{ top: "19rem", left: "25rem" }}
-          whileInView={{ left: "12rem" }}
-          transition={transition}
-        >
-          <Card
-            emoji={Humble}
-            heading={"UI/UX"}
-            detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
-            }
-            color="rgba(252, 166, 31, 0.45)"
-          />
-        </motion.div> */}
         <div
           className="blur s-blur2"
           style={{ background: "var(--purple)" }}

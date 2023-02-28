@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import "./Works.css";
+import html from "../../img/Html.png";
 import react from "../../img/react.png";
-import html from "../../img/html.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import javascript from "../../img/javascript.png";
+import nodejs from "../../img/nodejs.png";
+import mongodb from "../../img/mongodb.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll'
@@ -21,18 +21,18 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
+            MERN
           </span>
-          <span>Brands & Clients</span>
+          <span>FULLSTACK</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+             I seek to work in a competitive field and ready to accept the
+              challenges,
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            utilizing my skills, would like to work with a highly esteemed company .
             <br />
-            y dummy text of printingLorem
+            which gives me a platform to use my expertise 
             <br />
-            ispum is simpley dummy text of printing
+            and  skills for mutual growth and benefit of company and myself
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
@@ -54,19 +54,19 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={react} alt="" />
-          </div>
-          <div className="w-secCircle">
             <img src={html} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
-          </div>{" "}
-          <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            <img src={react} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img src={javascript} alt="" />
+          </div>{" "}
+          <div className="w-secCircle">
+            <img src={nodejs} alt="" />
+          </div>
+          <div className="w-secCircle">
+            <img src={mongodb} alt="" />
           </div>
         </motion.div>
         {/* background Circles */}

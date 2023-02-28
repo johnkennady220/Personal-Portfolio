@@ -48,7 +48,7 @@
   border-radius: 100%;
   box-shadow: var(--smboxShadow);
   top: 2rem;
-  background: white;
+  background:white;
   /* darkMode */
   z-index: 2;
 }
@@ -80,7 +80,7 @@
   height: 6rem;
   position: absolute;
   border-radius: 100%;
-  border: 5px solid #ebebeb;
+  border: 5px solid rgb(238, 233, 233);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -90,7 +90,7 @@
 }
 
 .w-secCircle > img {
-  transform: scale(0.6);
+  transform: scale(0.7);
 }
 
 .w-backCircle {
